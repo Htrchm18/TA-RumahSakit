@@ -2,11 +2,10 @@ import React from 'react';
 import { Table } from 'react-bootstrap';
 
 // Define sample data directly within the component
-const data = [
-  { id: 1, nama: 'John Doe', tanggalLahir: '1990-01-01',gender: 'Laki-laki' ,namaPenyakit: 'Flu', namaDokter: 'Dr. Smith', diagnosa: 'Common cold', obat: 'Paracetamol' },
-  { id: 2, nama: 'Jane Doe', tanggalLahir: '1995-05-23',gender: 'Laki-laki' ,namaPenyakit: 'Headache', namaDokter: 'Dr. Lee', diagnosa: 'Tension headache', obat: 'Ibuprofen' },
-  // Add more data as needed
-];
+  const data = [
+    { id: 1, nama: "John Doe", tanggalLahir: "1990-01-01", gender: "Laki-laki", namaPenyakit: "Flu", namaDokter: "Dr. Smith", 
+    diagnosa: "Common cold", obat: "Paracetamol" },
+  ];
 
 const Tabel = () => {
   return (
